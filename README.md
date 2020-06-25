@@ -1,30 +1,3 @@
-# Jungle App
+# JungleJS Site
 
-This is a project template for [Jungle](https://junglejs.org) apps. It lives at https://github.com/junglejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit junglejs/template jungle-app
-cd jungle-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd jungle-app
-npm install
-```
-
-...then start the build/run
-
-```bash
-npm run start
-```
-
-Navigate to [localhost:3000](http://localhost:3000). You should see your app running.
+This is the repo for [junglejs.org](https://junglejs.org). Check out [junglejs.org/contributing/use-it/](https://junglejs.org/contributing/use-it/) to see a guide on contributing.
