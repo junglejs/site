@@ -1,10 +1,10 @@
 <script>
-  const currentTheme = localStorage.getItem("theme");
+  const currentTheme = typeof window !== 'undefined' ? localStorage.getItem("theme") : null;
 
   if (currentTheme) {
     document.documentElement.setAttribute("data-theme", currentTheme);
   } else {
-    window.matchMedia("(prefers-color-scheme: dark)").addListener(e => {
+    typeof window !== 'undefined' && window.matchMedia("(prefers-color-scheme: dark)").addListener(e => {
         if (e.matches) {
             document.documentElement.setAttribute("data-theme", "dark")
         } else {
