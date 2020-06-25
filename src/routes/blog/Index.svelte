@@ -59,6 +59,7 @@
       method="post"
       onsubmit="window.open('https://buttondown.email/junglejs')"
       class="embeddable-buttondown-form flex flex-row rounded-lg w-full">
+      <label class="hidden" for="bd-email">Enter your email for the newsletter</label>
       <input
         class="py-3 px-4 text-gray-800 border-gray-300 border-2 border-r-0
         outline-none placeholder-gray-500 rounded-l-lg w-full"

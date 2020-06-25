@@ -92,7 +92,7 @@
           </button>
         </div>
         <div class="flex-shrink-0 flex items-center">
-          <a href="https://twitter.com/jungle_js" target="_blank">
+          <a rel="noopener" href="https://twitter.com/jungle_js" target="_blank">
             <img
               class="block h-5 pl-5 w-auto icon"
               src="/icons/twitter.svg"
@@ -100,7 +100,7 @@
           </a>
         </div>
         <div class="flex-shrink-0 flex items-center">
-          <a href="https://github.com/junglejs/junglejs" target="_blank">
+          <a rel="noopener" href="https://github.com/junglejs/junglejs" target="_blank">
             <img
               class="block h-5 pl-5 w-auto icon"
               src="/icons/github.png"
