@@ -26,7 +26,7 @@
 <main class="flex flex-col items-center sm:mx-16 lg:mx-32 pt-16">
   <!--Not gonna show example posts for now-->
   <!--{#each QUERYRES.posts as post}
-    <a href="/blog/{post.slug}" class="flex flex-row rounded-lg w-full mb-8">
+    <a href="/blog/{post.slug}/" class="flex flex-row rounded-lg w-full mb-8">
       <div
         class="flex flex-col items-start justify-center py-6 px-8 border-gray-300 border-2 border-r-0 card
         outline-none  rounded-l-lg w-3/4">
