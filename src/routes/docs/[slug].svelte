@@ -76,6 +76,10 @@
     word-wrap: break-word;
     white-space: pre;
   }
+  .content :global(h3) {
+    font-size: 1.4em;
+    font-weight: 500;
+  }
 </style>
 
 <svelte:head>
