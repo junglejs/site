@@ -31,8 +31,8 @@
   }
   .content :global(h2) {
     font-size: 1.6em;
-	font-weight: 500;
-	margin-bottom: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
   }
   .content :global(pre) {
     background-color: #f9f9f9;
@@ -46,32 +46,32 @@
     padding: 0;
   }
   .content :global(ul) {
-	line-height: 1.5;
-	list-style: disc inside;
+    line-height: 1.5;
+    list-style: disc inside;
   }
   .content :global(li) {
     margin: 0 0 0.5em 0;
   }
   .content :global(a) {
-	color: rgb(70,170,86);
-	text-decoration: non;
+    color: rgb(70, 170, 86);
+    text-decoration: non;
   }
 
   .content :global(a:hover) {
-	text-decoration: underline;
+    text-decoration: underline;
   }
 
   .content :global(code) {
-	  background: #f4f4f4;
+    background: #f4f4f4;
     border: 1px solid #ddd;
-    border-left: 3px solid rgb(70,170,86);
+    border-left: 3px solid rgb(70, 170, 86);
     color: #666;
     font-family: monospace;
     line-height: 1.6;
     max-width: 100%;
     overflow: auto;
-	  padding: 1em 1.5em;
-	  margin: 1em 0;
+    padding: 1em 1.5em;
+    margin: 1em 0;
     display: block;
     word-wrap: break-word;
     white-space: pre;
@@ -79,6 +79,25 @@
   .content :global(h3) {
     font-size: 1.4em;
     font-weight: 500;
+  }
+
+  .content :global(table) {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .content :global(table) :global(td),
+  .content :global(table) :global(th) {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+  }
+
+  .content :global(table) :global(th) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: rgb(70, 170, 86);
+    color: white;
   }
 </style>
 
@@ -93,7 +112,7 @@
   <div class="content mt-5 sm:px-16 lg:px-32 text-left">
     <h1 class="title">{QUERYRES.doc.title}</h1>
 
-	{@html QUERYRES.doc.html}
+    {@html QUERYRES.doc.html}
   </div>
 </main>
 
