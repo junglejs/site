@@ -4,7 +4,7 @@ title: Adding Sanity CMS to Jungle.js & deploy
 slug: jungle-sanity
 subtitle: An example of a Sanity powered Jungle.js blog
 publish_date: "2020-10-26T12:47:00.000Z"
-feature_image: "/jungle-sanity.png"
+feature_image: "/post-images/jungle-sanity.png"
 author: Jacob Stordahl
 
 ---

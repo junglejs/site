@@ -107,19 +107,31 @@
   .content :global(pre) {
     background-color: #f9f9f9;
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
-    padding: 0.5em;
     border-radius: 2px;
     overflow-x: auto;
+    border: 1px solid #ddd;
+    border-left: 3px solid rgb(70,170,86);
   }
   .content :global(pre) :global(code) {
-    background-color: transparent;
-    padding: 0;
+    color: #666;
+    font-family: monospace;
+    line-height: 1.6;
+    max-width: 100%;
+    overflow: auto;
+	  padding: 1em 0;
+    display: block;
+    word-wrap: break-word;
+    white-space: pre;
   }
   .content :global(ul) {
     line-height: 1.5;
   }
   .content :global(li) {
     margin: 0 0 0.5em 0;
+  }
+
+  .content :global(code) {
+    background: #f4f4f4;
   }
 </style>
 
