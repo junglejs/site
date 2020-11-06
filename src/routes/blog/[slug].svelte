@@ -136,7 +136,7 @@
 </style>
 
 <svelte:head>
-  <title>{QUERYRES.title} - Blog - JungleJS</title>
+  <title>{QUERYRES.post.title} - Blog - JungleJS</title>
 </svelte:head>
 
 <Nav/>
