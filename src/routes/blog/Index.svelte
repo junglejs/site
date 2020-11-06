@@ -24,8 +24,7 @@
 <Nav page="/blog/" />
 
 <main class="flex flex-col items-center sm:mx-16 lg:mx-32 pt-16">
-  <!--Not gonna show example posts for now-->
-  <!--{#each QUERYRES.posts as post}
+  {#each QUERYRES.posts as post}
     <a href="/blog/{post.slug}/" class="flex flex-row rounded-lg w-full mb-8">
       <div
         class="flex flex-col items-start justify-center py-6 px-8 border-gray-300 border-2 border-r-0 card
@@ -50,7 +49,7 @@
         alt="Preview"
         class="text-white font-semibold rounded-r-lg w-1/4 object-cover object-center" />
     </a>
-  {/each}-->
+  {/each}
 
   <!-- Newsletter Signup -->
   <div class="my-32 flex flex-col items-center justify-center w-full">
@@ -74,9 +73,6 @@
     </form>
     <span class="mt-4 text-base leading-5 font-medium text-gray-500">
       Subscribe to our newsletter to see future blogposts
-    </span>
-    <span class="mt-4 text-base leading-5 font-medium text-gray-500">
-      Nothing here yet, but stay tuned for it!
     </span>
   </div>
 </main>
